@@ -2,7 +2,7 @@ import bounceInfinity from "@/assets/brands/bounce-infinity.png";
 import ampere from "@/assets/brands/ampere.png";
 import ather from "@/assets/brands/ather.png";
 import eicher from "@/assets/brands/eicher.png";
-import piaggio from "@/assets/brands/piaggio.png";
+import piaggio from "@/assets/brands/piaggio.jpeg.asset.json";
 import tvs from "@/assets/brands/tvs.png";
 
 const brands = [
@@ -10,7 +10,7 @@ const brands = [
   { image: ampere, name: "Ampere" },
   { image: ather, name: "Ather" },
   { image: eicher, name: "Volvo Eicher" },
-  { image: piaggio, name: "Piaggio" },
+  { image: piaggio.url, name: "Piaggio" },
   { image: tvs, name: "TVS" },
 ];
 
