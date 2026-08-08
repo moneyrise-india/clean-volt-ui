@@ -4,7 +4,7 @@ import { Images, ChevronLeft, ChevronRight } from "lucide-react";
 
 const galleryImages = [
   { src: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=600&h=600&fit=crop", alt: "Electric vehicle charging station" },
-  { src: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=600&fit=crop", alt: "Modern electric delivery van" },
+  { src: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=600&h=600&fit=crop", alt: "Modern electric delivery van" },
   { src: "https://images.unsplash.com/photo-1611348586804-61bf6c080437?w=600&h=600&fit=crop", alt: "Electric fleet vehicles" },
   { src: "https://images.unsplash.com/photo-1530685932526-48ec92998eaa?w=600&h=600&fit=crop", alt: "EV battery technology" },
   { src: "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=600&h=600&fit=crop", alt: "Electric mobility infrastructure" },
@@ -68,10 +68,10 @@ const GallerySection = () => {
               animate="center"
               exit="exit"
               transition={{ duration: 0.5, ease: "easeInOut" }}
-              className="grid grid-cols-3 gap-4 lg:gap-6"
+              className="flex md:grid md:grid-cols-3 gap-0 md:gap-4 lg:gap-6 items-center"
             >
               {getVisibleImages().map((img, i) => (
-                <div key={i} className="aspect-square rounded-2xl overflow-hidden bg-muted">
+                <div key={i} className={`aspect-square rounded-2xl overflow-hidden bg-muted ${i === 1 ? 'w-[70%] md:w-auto' : 'w-[15%] md:w-auto'}`}>
                   <img
                     src={img.src}
                     alt={img.alt}

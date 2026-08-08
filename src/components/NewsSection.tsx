@@ -86,7 +86,7 @@ const NewsSection = () => {
               animate="center"
               exit="exit"
               transition={{ duration: 0.5, ease: "easeInOut" }}
-              className="grid grid-cols-3 gap-4 lg:gap-6"
+              className="flex md:grid md:grid-cols-3 gap-0 md:gap-4 lg:gap-6 items-center"
             >
               {getVisibleItems().map((item, i) => (
                 <a
@@ -94,7 +94,7 @@ const NewsSection = () => {
                   href={item.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="aspect-square rounded-2xl overflow-hidden bg-muted block hover:opacity-90 transition-opacity"
+                  className={`aspect-square rounded-2xl overflow-hidden bg-muted block hover:opacity-90 transition-opacity ${i === 1 ? 'w-[70%] md:w-auto' : 'w-[15%] md:w-auto'}`}
                 >
                   <img
                     src={item.image}
