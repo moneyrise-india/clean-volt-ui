@@ -9,7 +9,7 @@ const brands = [
   { image: bounceInfinity, name: "Bounce Infinity" },
   { image: ampere, name: "Ampere" },
   { image: ather, name: "Ather" },
-  { image: eicher, name: "Volvo Eicher" },
+  { image: eicher, name: "Volvo Eicher", imgClass: "max-h-[70%]" },
   { image: piaggio.url, name: "Piaggio", imgClass: "max-h-[70%]" },
   { image: tvs, name: "TVS" },
 ];
