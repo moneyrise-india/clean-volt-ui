@@ -68,10 +68,10 @@ const GallerySection = () => {
               animate="center"
               exit="exit"
               transition={{ duration: 0.5, ease: "easeInOut" }}
-              className="grid grid-cols-3 gap-4 lg:gap-6"
+              className="flex md:grid md:grid-cols-3 gap-0 md:gap-4 lg:gap-6 items-center"
             >
               {getVisibleImages().map((img, i) => (
-                <div key={i} className="aspect-square rounded-2xl overflow-hidden bg-muted">
+                <div key={i} className={`aspect-square rounded-2xl overflow-hidden bg-muted ${i === 1 ? 'w-[70%] md:w-auto' : 'w-[15%] md:w-auto'}`}>
                   <img
                     src={img.src}
                     alt={img.alt}
