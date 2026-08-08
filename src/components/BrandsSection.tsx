@@ -10,7 +10,7 @@ const brands = [
   { image: ampere, name: "Ampere" },
   { image: ather, name: "Ather" },
   { image: eicher, name: "Volvo Eicher", imgClass: "max-h-[70%]" },
-  { image: piaggio.url, name: "Piaggio", imgClass: "max-h-[70%]" },
+  { image: piaggio.url, name: "Piaggio", imgClass: "max-h-[60%]" },
   { image: tvs, name: "TVS" },
 ];
 
