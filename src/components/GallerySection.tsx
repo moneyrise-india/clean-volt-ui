@@ -4,7 +4,7 @@ import { Images, ChevronLeft, ChevronRight } from "lucide-react";
 
 const galleryImages = [
   { src: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=600&h=600&fit=crop", alt: "Electric vehicle charging station" },
-  { src: "https://images.unsplash.com/photo-1566008885218-90abf9200ddb?w=600&h=600&fit=crop", alt: "Modern electric delivery van" },
+  { src: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=600&fit=crop", alt: "Modern electric delivery van" },
   { src: "https://images.unsplash.com/photo-1611348586804-61bf6c080437?w=600&h=600&fit=crop", alt: "Electric fleet vehicles" },
   { src: "https://images.unsplash.com/photo-1530685932526-48ec92998eaa?w=600&h=600&fit=crop", alt: "EV battery technology" },
   { src: "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=600&h=600&fit=crop", alt: "Electric mobility infrastructure" },
