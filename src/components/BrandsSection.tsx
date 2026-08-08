@@ -27,7 +27,7 @@ const BrandsSection = () => {
               <img
                 src={brand.image}
                 alt={brand.name}
-                className="max-w-full max-h-full object-contain"
+                className={`max-w-full max-h-full object-contain ${brand.imgClass || ""}`}
               />
             </div>
           ))}
