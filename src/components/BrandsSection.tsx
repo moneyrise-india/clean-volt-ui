@@ -10,7 +10,7 @@ const brands = [
   { image: ampere, name: "Ampere" },
   { image: ather, name: "Ather" },
   { image: eicher, name: "Volvo Eicher" },
-  { image: piaggio.url, name: "Piaggio" },
+  { image: piaggio.url, name: "Piaggio", imgClass: "max-h-[70%]" },
   { image: tvs, name: "TVS" },
 ];
 
@@ -27,7 +27,7 @@ const BrandsSection = () => {
               <img
                 src={brand.image}
                 alt={brand.name}
-                className="max-w-full max-h-full object-contain"
+                className={`max-w-full max-h-full object-contain ${brand.imgClass || ""}`}
               />
             </div>
           ))}
